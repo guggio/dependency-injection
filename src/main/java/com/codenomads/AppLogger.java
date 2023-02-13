@@ -1,5 +1,8 @@
 package com.codenomads;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class AppLogger {
 
     public void printLog(String log) {
